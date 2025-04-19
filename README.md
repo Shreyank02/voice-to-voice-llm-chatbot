@@ -27,56 +27,7 @@ voice-to-voice-bot/
 ├── tts.py                  # Text-to-speech handling
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Documentation
-└── myenv/                  # (Optional) Python virtual environment
 ```
-
----
-
-## 🛠️ Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/voice-to-voice-bot.git
-cd voice-to-voice-bot
-```
-
-### 2. Create and Activate a Virtual Environment
-
-```bash
-python -m venv myenv
-# Activate it:
-# Windows
-myenv\Scripts\activate
-# macOS/Linux
-source myenv/bin/activate
-```
-
-### 3. Install the Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Download Whisper Model (Optional)
-
-In `main.py`, the following line loads the default medium model:
-
-```python
-model = whisper.load_model("medium")
-```
-
-You can switch to `"base"` or `"small"` for faster performance.
-
----
-
-## ▶️ Run the Application
-
-```bash
-streamlit run app.py
-```
-
-Then, open your browser at `http://localhost:8501` if it doesn't open automatically.
 
 ---
 
