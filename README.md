@@ -61,14 +61,6 @@ pip install -r requirements.txt
 
 ---
 
-## 💡 To-Do / Ideas
-
-- [x] Add repeat-prevention logic
-- [ ] Use GPU for Whisper inference
-- [ ] Add multi-language support
-- [ ] Add real-time translation feature
-- [ ] Convert to mobile or desktop app
-
 ---
 
 ## 📃 License
