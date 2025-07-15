@@ -8,6 +8,7 @@ A real-time conversational assistant that allows users to speak into a microphon
 
 - 🎧 **Speech Recognition** using OpenAI's [Whisper](https://github.com/openai/whisper)
 - 🧠 **LLM-Based Response Generation** using Gemini/OpenAI/your chosen LLM
+- 📚 **RAG (Retrieval-Augmented Generation)**: Upload documents (PDF, DOCX, TXT) and ask context-aware questions
 - 🔊 **Text-to-Speech (TTS)** with `pyttsx3` for local speech playback
 - 💬 **Conversation Memory** displayed in a real-time chat format
 - 🌐 **Streamlit UI** for a simple, responsive web interface
@@ -24,6 +25,7 @@ voice-to-voice-bot/
 ├── app.py                  # Streamlit UI and app logic
 ├── main.py                 # Audio recording and Whisper transcription
 ├── llm.py                  # LLM response generation
+├── rag.py                  # Document upload, embedding & RAG retrieval
 ├── tts.py                  # Text-to-speech handling
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Documentation
